@@ -70,3 +70,41 @@ text-decoration: none;
     color: #86868b;
     font-size: 0.85em;
 }
+.products-container {
+  display: flex;
+  margin: 10px 0;
+  gap: 10px;
+}
+.product {
+  width: 50%;
+  padding-top: 30px;
+  text-align: center;
+  height: 550px;
+}
+.product .description {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+.product3 {
+  background: url(../images/home/apple-tv-background.jpg) no-repeat bottom;
+}
+.product3 .description {
+  padding: 180px 0;
+  text-align: center;
+}
+.watch-link {
+  color: #06c;
+}
+.products-container .product4 {
+  background: #000 url(../images/home/air-pods.jpg) no-repeat bottom;
+  color: #fff;
+}
+.product4 .links a:hover {
+  color: #fff;
+}
+.product5 {
+  background: #fafafa url(../images/home/macbook-pro.jpg) no-repeat bottom;
+}
+.product6 {
+  background: url(../images/home/new-ipad.jpg) no-repeat bottom;
+}
